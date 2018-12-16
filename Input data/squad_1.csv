@@ -1,0 +1,5 @@
+Id,groupId,matchId,assists,boosts,damageDealt,DBNOs,headshotKills,heals,killPlace,killPoints,kills,killStreaks,longestKill,matchDuration,matchType,maxPlace,numGroups,rankPoints,revives,rideDistance,roadKills,swimDistance,teamKills,vehicleDestroys,walkDistance,weaponsAcquired,winPoints
+a745d153c775f6,448815d427a0cb,d89edefce52fb1,0,0,0,0,0,0,79,0,0,0,0,1301,squad-fpp,25,25,-1,0,0,0,0,0,0,282.8,2,0
+0f6ddcb150e1d7,448815d427a0cb,d89edefce52fb1,0,0,36.88,0,0,0,89,0,0,0,0,1301,squad-fpp,25,25,-1,0,0,0,0,0,0,76.79,2,0
+7351c07dd2064a,448815d427a0cb,d89edefce52fb1,0,0,107.7,1,1,0,24,0,1,1,38.36,1301,squad-fpp,25,25,1495,0,0,0,0,0,0,608.4,2,0
+1703e959bee982,448815d427a0cb,d89edefce52fb1,0,0,0,0,0,0,90,0,0,0,0,1301,squad-fpp,25,25,1510,0,0,0,0,0,0,46.84,1,0

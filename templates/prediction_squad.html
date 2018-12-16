@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction of Squad Team</title>
+    <style>
+        .button{
+        background-color:black;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: solid;
+            font-family: Cambria;
+            font-size: 22px;
+            border-radius:16px;
+            color:white;
+            position:absolute;
+            transition: all .1s linear;
+        }
+         .button:active
+        {
+            transform: translateY(4px);
+        }
+        .button1{
+            width:120px;
+            height:35px;
+            top:28%;
+            margin-left:900px;
+        }
+        .file{
+            width:250px;
+            height:200px;
+            top:29%;
+            margin-left:490px;
+            position:absolute;
+            font-size: 16px;
+        }
+        .label{
+            position: absolute;
+            text-align:center;
+            color:black;
+            font-family :'Bell MT';
+            font-size: 35px;
+            font:bold italic;
+            text-decoration:solid;
+        }
+         .title{
+             margin-left:410px;
+             top:14%;
+        }
+        .ip {
+            margin-left:500px;
+            top:20%;
+        }
+        body {background: url(static/pubg_in_game.png) no-repeat; background-size: 104% }
+    </style>
+</head>
+<body>
+    <label typeof="text" class="label title">PUBG: Team's Winning Placement Prediction</label>
+    <label typeof="text" class="label ip">Select an input file for prediction</label>
+    <form action="/prediction_squad_output" method="POST" enctype="multipart/form-data">
+    <input type="file" name="file" class="file" accept=".csv"/>
+    <input type="submit" class="button button1" value="Predict" id="squad"/><br><br>
+</form>
+</body>
+</html>

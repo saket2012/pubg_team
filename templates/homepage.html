@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>PUBG: Team's Winning Placement Prediction</title>
+    <style>
+        .button{
+            background-color:black;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: solid;
+            font-family: Cambria;
+            font-size: 22px;
+            border-radius:16px;
+            color:white;
+            position:absolute;
+            transition: all .1s linear;
+        }
+        .button:active
+        {
+            transform: translateY(4px);
+        }
+        .ps{
+            width:220px;
+            height:35px;
+            top:28%;
+            margin-left:400px;
+        }
+        .pd{
+            width:220px;
+            height:35px;
+            top:28%;
+            margin-left:850px;
+        }
+        .label{
+            position:absolute;
+            text-align:center;
+            color:black;
+            font-family :'Bell MT';
+            font-size: 35px;
+            font:bold italic;
+            text-decoration:solid;
+        }
+        .title{
+             margin-left:410px;
+             top:14%;
+        }
+        .team{
+            margin-left:590px;
+            top:20%;
+        }
+        body {background: url(static/pubg_in_game.png) no-repeat; background-size: 104% }
+    </style>
+</head>
+
+<body>
+    <label typeof="text" class="label title">PUBG: Team's Winning Placement Prediction</label>
+    <label typeof="text" class="label team">Please select a team</label>
+<form action="/prediction_squad">
+    <input class="button ps" type="submit" value="Squad (4 Players)" id="button1"/><br><br>
+</form>
+<form action="/prediction_duo">
+    <input class="button pd" type="submit" value="Duo (2 Players)"/><br><br>
+</form>
+</body>
+
+</html>
